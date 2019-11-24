@@ -68,9 +68,21 @@ h4{
 .adeno{
     height: 169px !important;
 }
+nav{
+    margin-top: 10px;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a {
+    text-decoration: none;
+}
 
 @media screen and (max-width: 768px) {
     .conditions__grid{
         grid-template-columns: 1fr;
+    }
+    nav{
+        font-size: 1rem;
     }
 }
