@@ -83,8 +83,18 @@ nav a {
         grid-template-columns: 1fr;
     }
     nav{
+        margin-top: 10px;
         font-size: 1.3rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+    nav a {
+        text-align: center;
+        height: 50px;
+        border: 1px solid lightgray;
+    }
+    .cointainer {
+        margin-top: 100px;
     }
 }
