@@ -83,6 +83,8 @@ nav a {
         grid-template-columns: 1fr;
     }
     nav{
-        font-size: 1rem;
+        font-size: 1.3rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }
